@@ -90,6 +90,13 @@ your existing Claude Code CLI.
 Pilot phase — **Windows and Linux** (`.exe`, AppImage, `.deb`). macOS planned.
 Access via the wishlist.
 
+## License
+
+Tarmhack'AI (the application) is **proprietary software**, and this repository contains
+**no product source code**. The reusable configuration templates under
+[`resources/templates/`](resources/templates/) are released under the **MIT License**.
+All other content (documentation, watch editions, branding) is © Swēl — all rights reserved.
+
 ---
 
 <sub>Claude Code is a trademark of Anthropic. Tarmhack'AI is an independent third-party tool,
