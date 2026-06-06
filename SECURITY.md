@@ -90,6 +90,6 @@ We read every report and take them seriously.
 
 ---
 
-<sub>Tarmhack'AI is a product by <a href="https://agence-swel.fr">Swēl</a>. Claude Code is
-a trademark of Anthropic; Tarmhack'AI is an independent third-party tool, not affiliated
-with Anthropic.</sub>
+<sub>Tarmhack'AI is a product by <a href="https://agence-swel.fr">Swēl SAS</a>. "Claude Code"
+and "Claude" are trademarks of Anthropic; Tarmhack'AI is an independent product, not affiliated
+with, sponsored by, or endorsed by Anthropic.</sub>

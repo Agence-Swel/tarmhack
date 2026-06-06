@@ -14,8 +14,10 @@ AI subscription.
 
 ### Does my data stay on my machine?
 
-Yes — 100%. No cloud, no telemetry, no data sent to third parties. Everything is scanned and
-analyzed locally. See [`SECURITY.md`](../SECURITY.md).
+Yes — your projects, configs and analyses never leave your machine. No cloud, no telemetry,
+no analytics. The app makes only three minimal connections (CLI update checks and license
+activation) — detailed in [`SECURITY.md`](../SECURITY.md); none of them carry your code or
+your data.
 
 ### Which platforms are supported?
 
@@ -23,8 +25,9 @@ analyzed locally. See [`SECURITY.md`](../SECURITY.md).
 
 ### How much does it cost?
 
-14-day trial, no credit card. €12/month or €99/year. **Founder price: €69/year locked for
-life** for the first 500 on the [wishlist](https://agence-swel.fr/solutions/tarmhack/#wishlist).
+14-day trial, no credit card. €12/month or €99/year. **Founder price: €69/year** for the
+first 500 on the [wishlist](https://agence-swel.fr/solutions/tarmhack/#wishlist) — locked as
+long as your subscription stays active.
 
 ### Is Tarmhack'AI affiliated with Anthropic?
 

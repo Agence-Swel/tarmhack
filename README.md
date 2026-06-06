@@ -31,6 +31,9 @@ files and permissions. No cloud, no API key, no telemetry.
   <img src="docs/media/app-dashboard.webp" alt="Tarmhack'AI dashboard" width="860">
 </p>
 
+<sub><em>"Claude Code" is a trademark of Anthropic. Tarmhack'AI is an independent product of
+Swēl SAS, not affiliated with, sponsored by, or endorsed by Anthropic.</em></sub>
+
 ## The problem
 
 The status quo holds for one project. It breaks at three. Symlinks, home-made scripts
@@ -77,9 +80,9 @@ your local Claude does the work. Wi-Fi off, the app runs the same. → see [`SEC
 
 ## Pricing
 
-14-day trial, no credit card. €12/month or €99/year. **Founder price: €69/year locked for
-life for the first 500** on the wishlist. No API key, no extra AI subscription — it uses
-your existing Claude Code CLI.
+14-day trial, no credit card. €12/month or €99/year. **Founder price: €69/year for the
+first 500** on the wishlist — locked as long as your subscription stays active. No API key,
+no extra AI subscription — it uses your existing Claude Code CLI.
 
 <p align="center">
   <a href="https://agence-swel.fr/solutions/tarmhack/#wishlist"><strong>→ Join the wishlist</strong></a>
@@ -95,11 +98,15 @@ Access via the wishlist.
 Tarmhack'AI (the application) is **proprietary software**, and this repository contains
 **no product source code**. The reusable configuration templates under
 [`resources/templates/`](resources/templates/) are released under the **MIT License**.
-All other content (documentation, watch editions, branding) is © Swēl — all rights reserved.
+All other content (documentation, watch editions, branding) is © 2026 Swēl SAS —
+all rights reserved.
 
 ---
 
-<sub>Claude Code is a trademark of Anthropic. Tarmhack'AI is an independent third-party tool,
-not affiliated with Anthropic; no Anthropic API is called by the app.</sub>
+<sub>"Claude Code" and "Claude" are trademarks of Anthropic. Tarmhack'AI is an independent
+product of Swēl SAS, not affiliated with, sponsored by, or endorsed by Anthropic; trademark
+references are nominative and for identification only. No Anthropic API is called by the app.</sub>
 
-<sub>Tarmhack'AI is a product by <a href="https://agence-swel.fr">Swēl</a>.</sub>
+<sub>Published by <strong>Swēl SAS</strong> (SIREN 104 600 374, Villetelle, France) —
+<a href="https://agence-swel.fr/mentions-legales">Legal notice</a> ·
+<a href="https://agence-swel.fr/confidentialite">Privacy policy</a>.</sub>
