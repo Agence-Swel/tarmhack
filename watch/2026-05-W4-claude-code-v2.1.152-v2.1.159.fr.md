@@ -1,7 +1,7 @@
 ---
 title: "Claude Code — Ce qui change cette semaine (v2.1.152 → v2.1.159)"
 date: 2026-06-01
-period: "Semaine W22 · v2.1.152 → v2.1.159"
+period: "Semaine W4 · v2.1.152 → v2.1.159"
 sources:
   - https://docs.claude.com/en/docs/claude-code/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
@@ -10,7 +10,7 @@ lang: fr
 
 # Claude Code — Ce qui change cette semaine
 
-> Période : semaine W22 · 27 au 31 mai 2026 · Versions v2.1.152 → v2.1.159
+> Période : semaine W4 (4ᵉ semaine de mai) · 27 au 31 mai 2026 · Versions v2.1.152 → v2.1.159
 > Sources : [CHANGELOG.md GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [docs.claude.com](https://docs.claude.com/en/docs/claude-code/changelog)
 > Généré le 2026-06-01
 

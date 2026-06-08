@@ -1,7 +1,7 @@
 ---
 title: "Claude Code — What's new this week (v2.1.160 → v2.1.168)"
 date: 2026-06-08
-period: "Week W24 · v2.1.160 → v2.1.168"
+period: "Week W2 · v2.1.160 → v2.1.168"
 sources:
   - https://docs.claude.com/en/docs/claude-code/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
@@ -10,7 +10,7 @@ lang: en
 
 # Claude Code — What's new this week
 
-> Period: Week W24 · June 2–6, 2026 · Versions v2.1.160 → v2.1.168 (8 releases)
+> Period: Week W2 (2nd week of June) · June 2–6, 2026 · Versions v2.1.160 → v2.1.168 (8 releases)
 > Sources: [CHANGELOG.md on GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [docs.claude.com](https://docs.claude.com/en/docs/claude-code/changelog)
 > Generated on 2026-06-08
 
