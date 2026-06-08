@@ -88,7 +88,7 @@ Deux nouveaux paramètres managés font leur apparition : `requiredMinimumVersio
 
 ---
 
-**Pour aller plus loin** — Cette semaine resserre la gouvernance des permissions de Claude Code : glob `deny` `"*"` pour tout refuser, et confirmation avant d'écrire dans des fichiers qui accordent l'exécution de code (`.zshenv`, `.npmrc`, configs de build). Le pendant côté lecture — traiter la configuration d'un dépôt cloné comme du code non fiable — est détaillé dans notre guide : [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Pour aller plus loin** — Cette semaine resserre la gouvernance des permissions de Claude Code : glob `deny` `"*"` pour tout refuser, et confirmation avant d'écrire dans des fichiers qui accordent l'exécution de code. Comment en faire une posture durable (deny-by-default, écritures sensibles, fenêtre de versions) : notre guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.md).
 
 ---
 
