@@ -1,8 +1,8 @@
 ---
 title: "Harden your own Claude Code permissions: go deny-by-default"
 description: "As you spread Claude Code across more projects, its permissions quietly drift toward 'allow.' Here's how to flip to deny-by-default and lock the writes that grant code execution — free, manual, vendor-neutral."
-last_revalidated: 2026-06-08
-claude_code_ref: v2.1.168
+last_revalidated: 2026-06-15
+claude_code_ref: v2.1.176
 sources:
   - https://docs.claude.com/en/docs/claude-code/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
@@ -66,6 +66,17 @@ This is a free, manual change to your own `settings.json`. Nothing to install.
 5. **In a team, pin a version window.** Use `requiredMinimumVersion` /
    `requiredMaximumVersion` (v2.1.163) in managed settings so nobody on the team is silently
    running a build that predates a fix.
+6. **In a team, lock the models that can run.** Least privilege isn't only about tools and
+   versions — it applies to *which models* execute on your behalf. Put an `availableModels`
+   allowlist in managed settings and set `enforceAvailableModels: true` (v2.1.175). As the
+   changelog puts it, with this on "the `availableModels` allowlist also constrains the
+   Default model," and "user or project settings can no longer widen a managed
+   `availableModels` list." Just as important, v2.1.172 made that allowlist apply *across the
+   board* — to sub-agent model overrides, the agent dispatch model picker, and the advisor
+   model. That matters because, since v2.1.172, "sub-agents can now spawn their own sub-agents
+   (up to 5 levels deep)": without enforcement reaching those overrides, a nested agent could
+   pick a model you never approved. With it, the approved list holds everywhere — no exception
+   you have to remember.
 
 ## Anti-patterns to drop
 
@@ -75,6 +86,10 @@ This is a free, manual change to your own `settings.json`. Nothing to install.
   your behalf is not convenience.
 - **Running an old version "because it works."** The week's hardening only protects you if
   you actually have it. A version window (v2.1.163) makes that a team setting, not a hope.
+- **Assuming a managed model allowlist can be loosened locally.** Since v2.1.175, a project
+  or user `settings.json` can no longer widen a managed `availableModels` list — and with
+  `enforceAvailableModels: true` it binds the Default model too. If you set it as the floor,
+  treat it as the floor; don't expect a local override to win.
 - **Copying a `settings.json` you found online without reading it.** Same reflex as treating
   [a cloned repo's config as untrusted code](untrusted-repo-config.md) — except here it's
   *your* posture you're handing over. Read every line before it becomes your default.
@@ -89,7 +104,7 @@ session. That's the model working *with* deny-by-default, not around it.
 
 ---
 
-<sub>Last revalidated **2026-06-08** against Claude Code **v2.1.168**. This guide is
+<sub>Last revalidated **2026-06-15** against Claude Code **v2.1.176**. This guide is
 maintained alongside our [weekly watch](../../watch/) — when the ecosystem shifts, this
 page is re-checked. Sources are listed in the page header.</sub>
 
