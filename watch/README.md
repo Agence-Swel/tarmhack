@@ -11,5 +11,6 @@
 
 | Period | Versions | Read |
 |---|---|---|
+| Week W3 · June 8–12, 2026 | v2.1.169 → v2.1.176 | [EN](2026-06-W3-claude-code-v2.1.169-v2.1.176.en.md) · [FR](2026-06-W3-claude-code-v2.1.169-v2.1.176.fr.md) |
 | Week W2 · June 2–6, 2026 | v2.1.160 → v2.1.168 | [EN](2026-06-W2-claude-code-v2.1.160-v2.1.168.en.md) · [FR](2026-06-W2-claude-code-v2.1.160-v2.1.168.fr.md) |
 | Week W4 · May 27–31, 2026 | v2.1.152 → v2.1.159 | [EN](2026-05-W4-claude-code-v2.1.152-v2.1.159.en.md) · [FR](2026-05-W4-claude-code-v2.1.152-v2.1.159.fr.md) |
