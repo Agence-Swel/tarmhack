@@ -12,10 +12,10 @@ against, and is kept in sync with our [weekly watch](../watch/).
 
 - [**Treat a cloned repo's Claude Code setup as untrusted code**](guides/untrusted-repo-config.md)
   — when you open someone else's project, its hidden config can run on your machine. The
-  durable reflex, with a free manual checklist. _Last revalidated: 2026-06-06 · Claude Code v2.1.159_
+  durable reflex, with a free manual checklist. _Last revalidated: 2026-07-15 · Claude Code v2.1.210_
 - [**Harden your own Claude Code permissions: go deny-by-default**](guides/harden-claude-code-permissions.md)
   — as you spread Claude Code across more projects, its permissions drift toward "allow." Flip to
-  deny-by-default and lock the writes that grant code execution. _Last revalidated: 2026-06-15 · Claude Code v2.1.176_
+  deny-by-default and lock the writes that grant code execution. _Last revalidated: 2026-06-29 · Claude Code v2.1.195_
 
 More guides will land as the ecosystem gives us something genuinely worth writing about.
 

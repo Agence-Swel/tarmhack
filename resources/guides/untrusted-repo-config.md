@@ -1,12 +1,13 @@
 ---
 title: "Treat a cloned repo's Claude Code setup as untrusted code"
 description: "When you open someone else's project in Claude Code, its hidden config can run on your machine. Here's the durable reflex — and a free checklist — to stay in control."
-last_revalidated: 2026-06-06
-claude_code_ref: v2.1.159
+last_revalidated: 2026-07-15
+claude_code_ref: v2.1.210
 sources:
   - https://research.checkpoint.com/2026/rce-and-api-token-exfiltration-through-claude-code-project-files-cve-2025-59536/
   - https://flatt.tech/research/posts/poisoning-claude-code-one-github-issue-to-break-the-supply-chain/
   - https://code.claude.com/docs/en/security
+  - https://code.claude.com/docs/en/settings
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
 ---
 
@@ -71,6 +72,28 @@ when the source isn't someone you already trust:
 If anything looks off, don't open the project in Claude Code from that directory until
 you've cleaned or removed it.
 
+## The CLI is starting to back this reflex
+
+A small sign the direction is right. From the official changelog, **v2.1.196**:
+
+> *"Security: `claude mcp list`/`get` no longer spawn `.mcp.json` servers that a repo
+> self-approved via a committed `.claude/settings.json`; untrusted workspaces show
+> `⏸ Pending approval`."*
+
+Unpack it, because it maps straight onto item 4 above. A repo could approve *its own* MCP
+servers by committing `enableAllProjectMcpServers: true` (or an `enabledMcpjsonServers` list)
+into `.claude/settings.json` — and then even an innocent-looking `claude mcp list` would
+*spawn* those server processes. That's code execution from a command that reads like
+inspection. Now, in an untrusted folder, those two commands ignore approval that arrived in a
+committed file; it only counts if it lives in a settings file *you* own and haven't committed
+(`.claude/settings.local.json`). Until you say so, the server stays at `⏸ Pending approval`.
+
+The way we read it: the CLI is implementing, natively, the exact reflex this guide is about —
+**a repo doesn't get to vouch for itself.** Good. But read the scope honestly: it closes one
+path for two commands. It doesn't read your hooks, your `env` overrides, or your other MCP
+entry points for you. The manual checklist above is still the job; the tooling just took one
+item off your plate.
+
 ## Anti-patterns to drop
 
 - Reading `.claude/` as "just configuration" instead of as code.
@@ -91,7 +114,7 @@ too.
 
 ---
 
-<sub>Last revalidated **2026-06-06** against Claude Code **v2.1.159**. This guide is
+<sub>Last revalidated **2026-07-15** against Claude Code **v2.1.210**. This guide is
 maintained alongside our [weekly watch](../../watch/) — when the ecosystem shifts, this
 page is re-checked. Sources are listed in the page header.</sub>
 

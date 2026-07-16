@@ -1,8 +1,8 @@
 ---
 title: "Harden your own Claude Code permissions: go deny-by-default"
 description: "As you spread Claude Code across more projects, its permissions quietly drift toward 'allow.' Here's how to flip to deny-by-default and lock the writes that grant code execution — free, manual, vendor-neutral."
-last_revalidated: 2026-06-15
-claude_code_ref: v2.1.176
+last_revalidated: 2026-06-29
+claude_code_ref: v2.1.195
 sources:
   - https://docs.claude.com/en/docs/claude-code/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
@@ -31,6 +31,26 @@ quietly grant code execution. A few highlights from the official changelog:
 
 That's not three unrelated patch notes. It's a direction. Deny-by-default just got cheap.
 Use it.
+
+And the direction held. Over the next two weeks (v2.1.178 → v2.1.195), the same theme kept
+shipping:
+
+- **Permission rules went parametric** (v2.1.178). You can now scope a rule to a tool's
+  *input parameters*, not just its name. The changelog: *"Added `Tool(param:value)` syntax
+  for permission rules to match a tool's input parameters (with `*` wildcard), e.g.
+  `Agent(model:opus)` to block Opus subagents."* That's least-privilege moving from "which
+  tools" down to "which arguments." A follow-up closed a gap where it didn't fully bite —
+  v2.1.186: *"Fixed `Agent(type)` deny rules and `Agent(x,y)` allowed-types restrictions not
+  being enforced for named subagent spawns."*
+- **A sandbox setting for credentials** (v2.1.187): *"Added `sandbox.credentials` setting to
+  block sandboxed commands from reading credential files and secret environment variables."*
+  If you run anything sandboxed, that's a turn-it-on reflex.
+- **You can finally read back what's refused** (v2.1.193): *"Added auto-mode denial reasons
+  to the transcript, the denial toast, and `/permissions` recent denials."* The failure mode
+  described below is *not being able to see what your config refuses* — now you can.
+- **A backstop for destructive commands** (v2.1.183): auto mode now blocks
+  `git reset --hard`, `git clean -fd`, and `terraform`/`pulumi`/`cdk destroy` when you didn't
+  ask to throw work away. Not a substitute for a deny floor — a net behind it.
 
 ## The problem, in plain terms
 
@@ -77,6 +97,15 @@ This is a free, manual change to your own `settings.json`. Nothing to install.
    (up to 5 levels deep)": without enforcement reaching those overrides, a nested agent could
    pick a model you never approved. With it, the approved list holds everywhere — no exception
    you have to remember.
+7. **Scope rules to parameters, not just tools.** Since v2.1.178, a permission rule can target
+   a tool's input parameter with `Tool(param:value)` and a `*` wildcard. So you don't have to
+   allow or deny a tool wholesale: you can deny `Agent(model:opus)` and leave the rest. Write
+   rules that say what you actually mean. One caveat — if you set an `Agent(type)` deny or an
+   `Agent(x,y)` allowed-types rule before v2.1.186, re-check it: those weren't being applied to
+   named sub-agent spawns until that fix.
+8. **Turn on `sandbox.credentials`.** If you run sandboxed commands, set `sandbox.credentials`
+   (v2.1.187) so they can't read your credential files or secret environment variables. It's
+   cheap and it closes an obvious exfiltration path.
 
 ## Anti-patterns to drop
 
@@ -90,6 +119,10 @@ This is a free, manual change to your own `settings.json`. Nothing to install.
   or user `settings.json` can no longer widen a managed `availableModels` list — and with
   `enforceAvailableModels: true` it binds the Default model too. If you set it as the floor,
   treat it as the floor; don't expect a local override to win.
+- **Never reading what got refused.** Since v2.1.193 your denials show up in the transcript,
+  in a toast, and under `/permissions` recent denials. A deny floor you never look at is a
+  guess; the recent-denials list tells you whether it's matching what you intended — or just
+  blocking real work and training you to widen it.
 - **Copying a `settings.json` you found online without reading it.** Same reflex as treating
   [a cloned repo's config as untrusted code](untrusted-repo-config.md) — except here it's
   *your* posture you're handing over. Read every line before it becomes your default.
@@ -104,7 +137,7 @@ session. That's the model working *with* deny-by-default, not around it.
 
 ---
 
-<sub>Last revalidated **2026-06-15** against Claude Code **v2.1.176**. This guide is
+<sub>Last revalidated **2026-06-29** against Claude Code **v2.1.195**. This guide is
 maintained alongside our [weekly watch](../../watch/) — when the ecosystem shifts, this
 page is re-checked. Sources are listed in the page header.</sub>
 
