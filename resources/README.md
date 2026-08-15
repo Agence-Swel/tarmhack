@@ -15,7 +15,7 @@ against, and is kept in sync with our [weekly watch](../watch/).
   durable reflex, with a free manual checklist. _Last revalidated: 2026-07-15 · Claude Code v2.1.210_
 - [**Harden your own Claude Code permissions: go deny-by-default**](guides/harden-claude-code-permissions.md)
   — as you spread Claude Code across more projects, its permissions drift toward "allow." Flip to
-  deny-by-default and lock the writes that grant code execution. _Last revalidated: 2026-06-29 · Claude Code v2.1.195_
+  deny-by-default, and learn what your rule patterns actually match. _Last revalidated: 2026-08-11 · Claude Code v2.1.226_
 
 More guides will land as the ecosystem gives us something genuinely worth writing about.
 
