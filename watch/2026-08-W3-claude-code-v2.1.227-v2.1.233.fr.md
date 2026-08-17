@@ -107,7 +107,7 @@ C'est un retrait, pas un bug.
 
 ---
 
-**Pour aller plus loin** — La semaine est dense en frontières de confiance : la confiance cesse de s'hériter d'un dossier parent, deux contournements de permission sont fermés sous Windows, un troisième est révoqué le lendemain de sa sortie, et `/commit-push-pr` cesse d'auto-approuver `--force`. La leçon durable n'est pas « il y avait des trous » — c'est qu'un filtre d'approbation qui analyse du shell reste fragile par construction, et qu'une allowlist étroite vaut mieux qu'une denylist. Le raisonnement complet, avec une checklist gratuite : notre guide [Harden Claude Code permissions](../resources/guides/harden-claude-code-permissions.md).
+**Pour aller plus loin** — Le fait durable de la semaine n'est pas un correctif, c'est une **portée** : approuver un dossier couvrait aussi les dépôts git imbriqués qu'il contient — sous-modules, dépendances vendorées, sous-dépôts d'un monorepo. Du code jamais relu, couvert par une approbation donnée pour autre chose. C'est corrigé, et c'est précisément pour ça que le réflexe compte : une décision de confiance a un rayon, et il était plus large qu'on ne le croyait. Ce que ce clic couvre vraiment, ce qu'il ne couvre pas, et une checklist manuelle gratuite : notre guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md), revalidé cette semaine contre la v2.1.233.
 
 ---
 

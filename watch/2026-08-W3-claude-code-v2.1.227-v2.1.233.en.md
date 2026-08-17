@@ -107,7 +107,7 @@ This is a removal, not a bug.
 
 ---
 
-**Further reading** — This week is dense with trust boundaries: trust stops being inherited from a parent directory, two permission bypasses are closed on Windows, a third is reverted the day after it shipped, and `/commit-push-pr` stops auto-approving `--force`. The durable lesson isn't "there were holes" — it's that an approval filter which parses shell is fragile by construction, and that a narrow allowlist beats a denylist. The full reasoning, with a free checklist: our guide [Harden Claude Code permissions](../resources/guides/harden-claude-code-permissions.md).
+**Further reading** — The durable fact of the week isn't a fix, it's a **scope**: approving a folder also covered every git repository nested inside it — submodules, vendored dependencies, a monorepo's sub-repos. Code you never opened, covered by an approval you gave for something else. It's fixed, and that's exactly why the reflex matters: a trust decision has a blast radius, and it was wider than most people assumed. What that click actually covers, what it doesn't, and a free manual checklist: our guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md), revalidated this week against v2.1.233.
 
 ---
 
