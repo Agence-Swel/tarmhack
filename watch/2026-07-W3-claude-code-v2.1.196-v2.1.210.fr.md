@@ -3,7 +3,7 @@ title: "Claude Code — Ce qui change cette semaine (v2.1.196 → v2.1.210)"
 date: 2026-07-15
 period: "Semaine W3 · v2.1.196 → v2.1.210"
 sources:
-  - https://docs.claude.com/en/docs/claude-code/changelog
+  - https://code.claude.com/docs/en/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
 lang: fr
 ---
@@ -11,7 +11,7 @@ lang: fr
 # Claude Code — Ce qui change cette semaine
 
 > Période : semaine W3 (juillet 2026) · Versions v2.1.196 → v2.1.210 (15 versions)
-> Sources : [CHANGELOG.md GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [docs.claude.com](https://docs.claude.com/en/docs/claude-code/changelog)
+> Sources : [CHANGELOG.md GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [code.claude.com](https://code.claude.com/docs/en/changelog)
 > Généré le 2026-07-15
 
 > **Statut de stabilité — non confirmé ce run.** Les dist-tags npm renvoient des numéros (`stable 2.1.142` / `latest 2.1.150`) inférieurs aux versions déjà publiées dans le changelog officiel — ils sont donc désynchronisés cette semaine. Par prudence, on n'appose aucun badge « stable / en préparation » sur les items ci-dessous : vérifiez `claude --version` et votre canal de mise à jour avant de déployer en production.

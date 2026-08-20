@@ -4,7 +4,7 @@ description: "As you spread Claude Code across more projects, its permissions qu
 last_revalidated: 2026-08-11
 claude_code_ref: v2.1.226
 sources:
-  - https://docs.claude.com/en/docs/claude-code/changelog
+  - https://code.claude.com/docs/en/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
   - https://code.claude.com/docs/en/permissions
   - https://code.claude.com/docs/en/permission-modes

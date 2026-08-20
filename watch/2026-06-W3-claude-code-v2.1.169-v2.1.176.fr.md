@@ -3,7 +3,7 @@ title: "Claude Code — Ce qui change cette semaine (v2.1.169 → v2.1.176)"
 date: 2026-06-15
 period: "Semaine W3 · v2.1.169 → v2.1.176"
 sources:
-  - https://docs.claude.com/en/docs/claude-code/changelog
+  - https://code.claude.com/docs/en/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
 lang: fr
 ---
@@ -11,7 +11,7 @@ lang: fr
 # Claude Code — Ce qui change cette semaine
 
 > Période : semaine W3 (3ᵉ semaine de juin) · 8 au 12 juin 2026 · Versions v2.1.169 → v2.1.176 (8 releases)
-> Sources : [CHANGELOG.md GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [docs.claude.com](https://docs.claude.com/en/docs/claude-code/changelog)
+> Sources : [CHANGELOG.md GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [code.claude.com](https://code.claude.com/docs/en/changelog)
 > Généré le 2026-06-15
 
 ---

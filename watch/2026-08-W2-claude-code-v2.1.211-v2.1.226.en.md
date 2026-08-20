@@ -3,7 +3,7 @@ title: "Claude Code — What's new this week (v2.1.211 → v2.1.226)"
 date: 2026-08-10
 period: "Week W2 · v2.1.211 → v2.1.226"
 sources:
-  - https://docs.claude.com/en/docs/claude-code/changelog
+  - https://code.claude.com/docs/en/changelog
   - https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
 lang: en
 ---
@@ -11,7 +11,7 @@ lang: en
 # Claude Code — What's new this week
 
 > Period: week W2 (August 2026) · Versions v2.1.211 → v2.1.226 (16 releases)
-> Sources: [CHANGELOG.md GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [docs.claude.com](https://docs.claude.com/en/docs/claude-code/changelog)
+> Sources: [CHANGELOG.md GitHub](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) · [code.claude.com](https://code.claude.com/docs/en/changelog)
 > Generated 2026-08-10
 
 > **Stability status — confirmed this run.** The npm dist-tags line up with the official changelog: `stable 2.1.220` / `latest 2.1.226`. In other words, anything ≤ v2.1.220 is already on the stable channel; anything ≥ v2.1.221 is still in preview and may change. Check `claude --version` and your update channel before shipping to production.
