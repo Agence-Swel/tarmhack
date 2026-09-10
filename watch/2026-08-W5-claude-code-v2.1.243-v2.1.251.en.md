@@ -120,7 +120,7 @@ A trust boundary that had slipped past everyone.
 
 ---
 
-**Further reading**: four path containment fixes in a single release, and they all tell the same story. A `deny` rule a symlink walks around, a path whose parentheses make the rule fall silent, a command auto-approved because it assigns an arithmetic expression. Command approval is a net, not a wall, and the answer is not to write cleverer patterns: it is to start from denial, then verify what actually applies. How to set that floor, and why a rule you have never seen match protects nobody: our guide [Harden your own Claude Code permissions](../resources/guides/harden-claude-code-permissions.md).
+**Further reading**: four path containment fixes in a single release, and they all tell the same story. A `deny` rule a symlink walks around, a path whose parentheses make the rule fall silent, a command auto-approved because it assigns an arithmetic expression. Command approval is a net, not a wall, and the answer is not to write cleverer patterns: it is to start from denial, then verify what actually applies. How to set that floor, and why a rule you have never seen match protects nobody: our guide [Harden your own Claude Code permissions](../resources/guides/harden-claude-code-permissions.en.md).
 
 ---
 

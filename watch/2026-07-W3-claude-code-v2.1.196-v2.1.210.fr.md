@@ -94,7 +94,7 @@ Quand Claude délègue à un sous-agent, il ne vous fait plus attendre - et un a
 
 ---
 
-**Pour aller plus loin** - Cette semaine, `claude mcp list`/`get` cessent de démarrer les serveurs MCP qu'un dépôt s'est auto-approuvés via un `.claude/settings.json` committé (v2.1.196) : le CLI applique nativement le réflexe qu'on recommande depuis le départ - traiter la configuration d'un repo cloné comme du code non fiable. Le réflexe durable, avec une checklist gratuite : notre guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Pour aller plus loin** - Cette semaine, `claude mcp list`/`get` cessent de démarrer les serveurs MCP qu'un dépôt s'est auto-approuvés via un `.claude/settings.json` committé (v2.1.196) : le CLI applique nativement le réflexe qu'on recommande depuis le départ - traiter la configuration d'un repo cloné comme du code non fiable. Le réflexe durable, avec une checklist gratuite : notre guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.fr.md).
 
 ---
 

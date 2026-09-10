@@ -79,7 +79,7 @@ Si vous journalisiez déjà les prompts via OpenTelemetry, la mise à jour vous 
 
 ---
 
-**Pour aller plus loin** - Cette semaine fait passer les permissions du niveau « outil » au niveau « paramètre » (`Agent(model:opus)`, v2.1.178) et ajoute `sandbox.credentials` (v2.1.187) pour couper les commandes sandboxées de vos secrets. Comment en faire une posture durable de moindre privilège (deny-by-default, écritures sensibles, fenêtre de versions, allowlist de modèles) : notre guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.md).
+**Pour aller plus loin** - Cette semaine fait passer les permissions du niveau « outil » au niveau « paramètre » (`Agent(model:opus)`, v2.1.178) et ajoute `sandbox.credentials` (v2.1.187) pour couper les commandes sandboxées de vos secrets. Comment en faire une posture durable de moindre privilège (deny-by-default, écritures sensibles, fenêtre de versions, allowlist de modèles) : notre guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.fr.md).
 
 ---
 

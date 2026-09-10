@@ -88,7 +88,7 @@ Two new managed settings appear: `requiredMinimumVersion` and `requiredMaximumVe
 
 ---
 
-**Going further** - This week tightens Claude Code's permission governance: a `"*"` glob `deny` to block everything, and a prompt before writing to files that grant code execution. How to turn it into a durable posture (deny-by-default, sensitive writes, a version window): our guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.md).
+**Going further** - This week tightens Claude Code's permission governance: a `"*"` glob `deny` to block everything, and a prompt before writing to files that grant code execution. How to turn it into a durable posture (deny-by-default, sensitive writes, a version window): our guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.en.md).
 
 ---
 

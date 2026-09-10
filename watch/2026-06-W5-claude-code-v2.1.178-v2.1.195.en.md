@@ -79,7 +79,7 @@ If you were already logging prompts through OpenTelemetry, the upgrade also star
 
 ---
 
-**Going further** - This week moves permissions from the tool level to the parameter level (`Agent(model:opus)`, v2.1.178) and adds `sandbox.credentials` (v2.1.187) to cut sandboxed commands off from your secrets. How to turn that into a durable least-privilege posture (deny-by-default, sensitive writes, a version window, a model allowlist): our guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.md).
+**Going further** - This week moves permissions from the tool level to the parameter level (`Agent(model:opus)`, v2.1.178) and adds `sandbox.credentials` (v2.1.187) to cut sandboxed commands off from your secrets. How to turn that into a durable least-privilege posture (deny-by-default, sensitive writes, a version window, a model allowlist): our guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.en.md).
 
 ---
 

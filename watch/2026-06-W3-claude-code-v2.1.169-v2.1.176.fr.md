@@ -97,7 +97,7 @@ Le nouveau drapeau `--safe-mode` (et la variable `CLAUDE_CODE_SAFE_MODE`) démar
 
 ---
 
-**Pour aller plus loin** - Cette semaine ajoute un levier de gouvernance managée : `enforceAvailableModels` (v2.1.175) verrouille la liste des modèles autorisés pour toute une équipe, même via un sous-agent. Comment en faire une posture durable de moindre privilège (deny-by-default, écritures sensibles, fenêtre de versions, allowlist de modèles) : notre guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.md).
+**Pour aller plus loin** - Cette semaine ajoute un levier de gouvernance managée : `enforceAvailableModels` (v2.1.175) verrouille la liste des modèles autorisés pour toute une équipe, même via un sous-agent. Comment en faire une posture durable de moindre privilège (deny-by-default, écritures sensibles, fenêtre de versions, allowlist de modèles) : notre guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.fr.md).
 
 ---
 

@@ -123,7 +123,7 @@ A project `.mcp.json` can cause a command to run. Cloning a repo is no longer en
 
 ---
 
-**Further reading**: the durable fact in this window is a quiet reversal. Until now, `claude -p` never showed a trust dialog, and plenty of people concluded that non-interactive mode simply skipped the question. v2.1.238 closes that door: a `headersHelper` declared in `.mcp.json`, like inline MCP servers, now requires an approved folder even when nobody is watching the screen. A pipeline that ran yesterday can go quiet today, and a cloned repo does not become harmless just because the run is automated. What an approval actually covers, what runs before it, and a free manual checklist: our guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Further reading**: the durable fact in this window is a quiet reversal. Until now, `claude -p` never showed a trust dialog, and plenty of people concluded that non-interactive mode simply skipped the question. v2.1.238 closes that door: a `headersHelper` declared in `.mcp.json`, like inline MCP servers, now requires an approved folder even when nobody is watching the screen. A pipeline that ran yesterday can go quiet today, and a cloned repo does not become harmless just because the run is automated. What an approval actually covers, what runs before it, and a free manual checklist: our guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.en.md).
 
 ---
 

@@ -94,7 +94,7 @@ When Claude delegates to a subagent, it no longer makes you wait - and a backgro
 
 ---
 
-**Going further** - This week, `claude mcp list`/`get` stop starting the MCP servers a repo self-approved via a committed `.claude/settings.json` (v2.1.196): the CLI now natively enforces the reflex we've recommended from the start - treat a cloned repo's configuration as untrusted code. The durable reflex, with a free checklist: our guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Going further** - This week, `claude mcp list`/`get` stop starting the MCP servers a repo self-approved via a committed `.claude/settings.json` (v2.1.196): the CLI now natively enforces the reflex we've recommended from the start - treat a cloned repo's configuration as untrusted code. The durable reflex, with a free checklist: our guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.en.md).
 
 ---
 

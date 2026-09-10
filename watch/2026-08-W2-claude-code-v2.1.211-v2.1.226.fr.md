@@ -100,7 +100,7 @@ Les deux points d'entrée se comportent enfin pareil.
 
 ---
 
-**Pour aller plus loin** - Cette semaine est dense en durcissements du contrôle de permission : quatre contournements fermés (v2.1.214, v2.1.216, v2.1.223) et une règle `Edit(src/**)` qui cesse d'auto-approuver tout l'arbre. La leçon durable n'est pas « il y avait des trous », c'est qu'un filtre d'approbation qui analyse du shell est fragile par nature - et qu'une allowlist étroite vaut mieux qu'une denylist. Le raisonnement complet, avec une checklist gratuite : notre guide [Harden Claude Code permissions](../resources/guides/harden-claude-code-permissions.md).
+**Pour aller plus loin** - Cette semaine est dense en durcissements du contrôle de permission : quatre contournements fermés (v2.1.214, v2.1.216, v2.1.223) et une règle `Edit(src/**)` qui cesse d'auto-approuver tout l'arbre. La leçon durable n'est pas « il y avait des trous », c'est qu'un filtre d'approbation qui analyse du shell est fragile par nature - et qu'une allowlist étroite vaut mieux qu'une denylist. Le raisonnement complet, avec une checklist gratuite : notre guide [Harden Claude Code permissions](../resources/guides/harden-claude-code-permissions.fr.md).
 
 ---
 

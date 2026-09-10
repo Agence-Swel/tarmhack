@@ -97,7 +97,7 @@ The new `--safe-mode` flag (and the `CLAUDE_CODE_SAFE_MODE` variable) starts Cla
 
 ---
 
-**Going further** - This week adds a managed governance lever: `enforceAvailableModels` (v2.1.175) locks down the list of allowed models for a whole team, even through a sub-agent. How to turn it into a durable least-privilege posture (deny-by-default, sensitive writes, a version window, a model allowlist): our guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.md).
+**Going further** - This week adds a managed governance lever: `enforceAvailableModels` (v2.1.175) locks down the list of allowed models for a whole team, even through a sub-agent. How to turn it into a durable least-privilege posture (deny-by-default, sensitive writes, a version window, a model allowlist): our guide [Harden your own Claude Code permissions: go deny-by-default](../resources/guides/harden-claude-code-permissions.en.md).
 
 ---
 

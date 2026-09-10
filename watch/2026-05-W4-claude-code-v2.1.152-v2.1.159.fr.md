@@ -118,7 +118,7 @@ Les plugins placés dans `.claude/skills` d'un projet sont maintenant chargés a
 
 ---
 
-**Pour aller plus loin** - Cette semaine touche à la confiance qu'on accorde à la configuration d'un projet (plugins désormais auto-chargés depuis `.claude/skills`). Notre guide associé revient sur le bon réflexe : [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Pour aller plus loin** - Cette semaine touche à la confiance qu'on accorde à la configuration d'un projet (plugins désormais auto-chargés depuis `.claude/skills`). Notre guide associé revient sur le bon réflexe : [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.fr.md).
 
 ---
 

@@ -129,7 +129,7 @@ Three fixes, three releases, one family of flaw: a path declared by a plugin or 
 
 ---
 
-**Further reading**: three containment fixes in three weeks on plugins and marketplaces, a component path routed through a symlink and then two backslash spellings, each closed after the fact. The lesson is not that a fix was missing, it is that a third-party repo's entry surface is wider than it looks: whatever loads from a marketplace, a plugin or a skill runs on your machine, with your rights. The free, tool-free manual checklist for knowing what a cloned repo actually brings with it: our guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Further reading**: three containment fixes in three weeks on plugins and marketplaces, a component path routed through a symlink and then two backslash spellings, each closed after the fact. The lesson is not that a fix was missing, it is that a third-party repo's entry surface is wider than it looks: whatever loads from a marketplace, a plugin or a skill runs on your machine, with your rights. The free, tool-free manual checklist for knowing what a cloned repo actually brings with it: our guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.en.md).
 
 ---
 

@@ -120,7 +120,7 @@ Une frontière de confiance qu'on n'avait pas vue passer.
 
 ---
 
-**Pour aller plus loin** : quatre correctifs de containment dans une seule release, et ils racontent tous la même histoire. Une règle `deny` qu'un lien symbolique contourne, un chemin dont les parenthèses font tomber la règle en silence, une commande approuvée à tort parce qu'elle affecte une expression arithmétique. Le contrôle de commande est un filet, pas un mur, et la parade ne consiste pas à écrire de meilleurs motifs : elle consiste à partir du refus, puis à vérifier ce qui s'applique réellement. Comment poser ce plancher, et pourquoi une règle qu'on n'a jamais vue s'appliquer ne protège personne : notre guide [Harden your own Claude Code permissions](../resources/guides/harden-claude-code-permissions.md).
+**Pour aller plus loin** : quatre correctifs de containment dans une seule release, et ils racontent tous la même histoire. Une règle `deny` qu'un lien symbolique contourne, un chemin dont les parenthèses font tomber la règle en silence, une commande approuvée à tort parce qu'elle affecte une expression arithmétique. Le contrôle de commande est un filet, pas un mur, et la parade ne consiste pas à écrire de meilleurs motifs : elle consiste à partir du refus, puis à vérifier ce qui s'applique réellement. Comment poser ce plancher, et pourquoi une règle qu'on n'a jamais vue s'appliquer ne protège personne : notre guide [Harden your own Claude Code permissions](../resources/guides/harden-claude-code-permissions.fr.md).
 
 ---
 

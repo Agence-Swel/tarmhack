@@ -123,7 +123,7 @@ Un `.mcp.json` de projet peut faire exécuter une commande. Cloner un dépôt ne
 
 ---
 
-**Pour aller plus loin** : le fait durable de cette fenêtre tient dans une bascule discrète. Jusqu'ici, `claude -p` n'affichait jamais de dialogue de confiance, et beaucoup en avaient déduit que le mode non interactif échappait à la question. La v2.1.238 referme la porte : un `headersHelper` déclaré dans `.mcp.json`, comme les serveurs MCP inline, exige désormais un dossier approuvé, y compris quand personne ne regarde l'écran. Un pipeline qui tournait hier peut donc se taire aujourd'hui, et un dépôt cloné ne devient pas inoffensif parce que l'exécution est automatisée. Ce qu'une approbation couvre vraiment, ce qui s'exécute avant elle, et une checklist manuelle gratuite : notre guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Pour aller plus loin** : le fait durable de cette fenêtre tient dans une bascule discrète. Jusqu'ici, `claude -p` n'affichait jamais de dialogue de confiance, et beaucoup en avaient déduit que le mode non interactif échappait à la question. La v2.1.238 referme la porte : un `headersHelper` déclaré dans `.mcp.json`, comme les serveurs MCP inline, exige désormais un dossier approuvé, y compris quand personne ne regarde l'écran. Un pipeline qui tournait hier peut donc se taire aujourd'hui, et un dépôt cloné ne devient pas inoffensif parce que l'exécution est automatisée. Ce qu'une approbation couvre vraiment, ce qui s'exécute avant elle, et une checklist manuelle gratuite : notre guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.fr.md).
 
 ---
 

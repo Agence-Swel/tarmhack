@@ -118,7 +118,7 @@ Plugins placed in a project's `.claude/skills` directory are now loaded automati
 
 ---
 
-**Going further** - This week touches on how much trust you place in a project's configuration (plugins are now auto-loaded from `.claude/skills`). Our related guide covers the reflex worth keeping: [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Going further** - This week touches on how much trust you place in a project's configuration (plugins are now auto-loaded from `.claude/skills`). Our related guide covers the reflex worth keeping: [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.en.md).
 
 ---
 

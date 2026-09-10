@@ -129,7 +129,7 @@ Trois correctifs, trois versions, la même famille de faille : un chemin déclar
 
 ---
 
-**Pour aller plus loin** : trois correctifs de containment en trois semaines sur les plugins et les marketplaces, un chemin de composant passé par un lien symbolique puis deux orthographes d'antislash, tous refermés après coup. La leçon n'est pas qu'un correctif manquait, c'est que la surface d'entrée d'un dépôt tiers est plus large qu'elle n'en a l'air : ce qui se charge depuis un marketplace, un plugin ou un skill s'exécute chez vous, avec vos droits. La checklist manuelle, gratuite et sans outil, pour savoir ce qu'un dépôt cloné apporte réellement avec lui : notre guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.md).
+**Pour aller plus loin** : trois correctifs de containment en trois semaines sur les plugins et les marketplaces, un chemin de composant passé par un lien symbolique puis deux orthographes d'antislash, tous refermés après coup. La leçon n'est pas qu'un correctif manquait, c'est que la surface d'entrée d'un dépôt tiers est plus large qu'elle n'en a l'air : ce qui se charge depuis un marketplace, un plugin ou un skill s'exécute chez vous, avec vos droits. La checklist manuelle, gratuite et sans outil, pour savoir ce qu'un dépôt cloné apporte réellement avec lui : notre guide [Treat a cloned repo's Claude Code setup as untrusted code](../resources/guides/untrusted-repo-config.fr.md).
 
 ---
 

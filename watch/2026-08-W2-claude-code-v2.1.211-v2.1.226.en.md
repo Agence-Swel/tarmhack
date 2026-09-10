@@ -100,7 +100,7 @@ The two entry points finally behave the same way.
 
 ---
 
-**Going further** - This week is dense with permission-control hardening: four bypasses closed (v2.1.214, v2.1.216, v2.1.223) and an `Edit(src/**)` rule that stops auto-approving the whole tree. The lasting lesson isn't "there were holes" - it's that an approval filter that parses shell is fragile by nature, and that a narrow allowlist beats a denylist. The full reasoning, with a free checklist: our guide [Harden Claude Code permissions](../resources/guides/harden-claude-code-permissions.md).
+**Going further** - This week is dense with permission-control hardening: four bypasses closed (v2.1.214, v2.1.216, v2.1.223) and an `Edit(src/**)` rule that stops auto-approving the whole tree. The lasting lesson isn't "there were holes" - it's that an approval filter that parses shell is fragile by nature, and that a narrow allowlist beats a denylist. The full reasoning, with a free checklist: our guide [Harden Claude Code permissions](../resources/guides/harden-claude-code-permissions.en.md).
 
 ---
 
