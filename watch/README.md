@@ -11,6 +11,9 @@
 
 | Period | Versions | Read |
 |---|---|---|
+| Week W2 · August 31 - September 9, 2026 | v2.1.252 → v2.1.267 | [EN](2026-09-W2-claude-code-v2.1.252-v2.1.267.en.md) · [FR](2026-09-W2-claude-code-v2.1.252-v2.1.267.fr.md) |
+| Week W5 · August 24-28, 2026 | v2.1.243 → v2.1.251 | [EN](2026-08-W5-claude-code-v2.1.243-v2.1.251.en.md) · [FR](2026-08-W5-claude-code-v2.1.243-v2.1.251.fr.md) |
+| Week W4 · August 17-22, 2026 | v2.1.234 → v2.1.241 | [EN](2026-08-W4-claude-code-v2.1.234-v2.1.241.en.md) · [FR](2026-08-W4-claude-code-v2.1.234-v2.1.241.fr.md) |
 | Week W3 · August 10-14, 2026 | v2.1.227 → v2.1.233 | [EN](2026-08-W3-claude-code-v2.1.227-v2.1.233.en.md) · [FR](2026-08-W3-claude-code-v2.1.227-v2.1.233.fr.md) |
 | Week W2 · August 4-10, 2026 | v2.1.211 → v2.1.226 | [EN](2026-08-W2-claude-code-v2.1.211-v2.1.226.en.md) · [FR](2026-08-W2-claude-code-v2.1.211-v2.1.226.fr.md) |
 | Week W3 · July 2026 | v2.1.196 → v2.1.210 | [EN](2026-07-W3-claude-code-v2.1.196-v2.1.210.en.md) · [FR](2026-07-W3-claude-code-v2.1.196-v2.1.210.fr.md) |
