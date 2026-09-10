@@ -2,14 +2,14 @@
 
 > High-level and indicative — not a commitment. Order and timing may change.
 
-## Now — Pilot
+## Shipped
 
-- Windows and Linux desktop app (pilot; access via the
-  [wishlist](https://agence-swel.fr/solutions/tarmhack/#wishlist))
+- **1.0.0** (September 2026) — first commercial release:
+  [Windows, macOS and Linux](https://agence-swel.fr/solutions/tarmhack/telecharger/)
 
 ## Next
 
-- macOS support
+- Manage your subscription online, from your browser
 - Continued alignment with the evolving Claude Code ecosystem
 
 ## Later

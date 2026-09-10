@@ -2,7 +2,7 @@
 
 ### What is Tarmhack'AI?
 
-A 100% local desktop app that scans, audits and synchronizes your Claude Code setup —
+A desktop app that scans, audits and synchronizes your Claude Code setup —
 projects, hooks, skills, agents, MCP servers, `CLAUDE.md` files and permissions. Built for
 developers who use Claude Code every day.
 
@@ -14,20 +14,22 @@ AI subscription.
 
 ### Does my data stay on my machine?
 
-Yes — your projects, configs and analyses never leave your machine. No cloud, no telemetry,
-no analytics. The app makes only three minimal connections (CLI update checks and license
-activation) — detailed in [`SECURITY.md`](../SECURITY.md); none of them carry your code or
-your data.
+Yes. Your projects, configs and analyses never leave your machine. No telemetry, no
+analytics. The app makes a small number of outbound connections, for your licence, for
+update checks, and for the AI features that drive your local Claude Code CLI. None of them
+carries your code or your configurations. Each one is listed, destination by destination,
+in [`SECURITY.md`](../SECURITY.md).
 
 ### Which platforms are supported?
 
-**Windows and Linux** today (AppImage and `.deb`). macOS is planned.
+**Windows** (`.exe` and `.msi`), **macOS** on Apple Silicon (`.dmg`, signed and notarized)
+and **Linux** (`.AppImage` and `.deb`).
 
 ### How much does it cost?
 
-14-day trial, no credit card. €12/month or €99/year. **Founder price: €69/year** for the
-first 500 on the [wishlist](https://agence-swel.fr/solutions/tarmhack/#wishlist) — locked as
-long as your subscription stays active.
+14-day trial, no credit card. Then €12/month or €99/year, VAT included. **Founder price:
+€69/year**, reserved for the first 150 people on the wishlist who subscribe within 30 days
+of launch, and held for as long as that subscription stays active.
 
 ### Is Tarmhack'AI affiliated with Anthropic?
 

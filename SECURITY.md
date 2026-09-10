@@ -7,9 +7,10 @@ about the few things that do touch the network.
 
 ## Local-first by design
 
-Tarmhack'AI runs entirely on your machine. Your projects, configurations, scans,
-health scores and analyses **never leave your computer**. There is no Tarmhack'AI
-cloud, no account to create, no server that mirrors your data.
+Tarmhack'AI runs on your machine. Your projects, configurations, scans, health scores
+and analyses **never leave your computer**. There is no Tarmhack'AI cloud that mirrors
+your data, and no web account to create: your licence key, delivered by e-mail, is the
+only credential.
 
 ## No AI API key, no AI calls from the app
 
@@ -37,7 +38,8 @@ your database or your usage**:
 | Destination | When | What is sent |
 |---|---|---|
 | **npm registry** | Periodic check "is your Claude CLI up to date?" | Anonymous request. No personal data. |
-| **Keygen** (licensing) | License activation / refresh | Your license key + a machine fingerprint (a derived ID). No project data. |
+| **Keygen** (licensing) | License activation and refresh | Your license key + a machine fingerprint (a derived ID). No project data. |
+| **Our licensing service** (`tarmhack-trial-api.agence-swel.workers.dev`) | Starting a trial, and counting AI Lab generations against your plan | A hash of your e-mail, never the address itself, and a generation counter. No project data. |
 | **GitHub Releases** | Update check at startup; download only if you click install | Nothing sent (versions compared locally). |
 
 Clicking an external link opens your **system browser** (https-only). The startup

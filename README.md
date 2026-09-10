@@ -8,22 +8,24 @@
 <h3 align="center">Take back control of your Claude Code environment.</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-pilot-F97316">
-  <img src="https://img.shields.io/badge/platforms-Windows%20|%20Linux-2b3137">
-  <img src="https://img.shields.io/badge/100%25-local-2ea44f">
+  <img src="https://img.shields.io/badge/version-1.0.0-F97316">
+  <img src="https://img.shields.io/badge/platforms-Windows%20|%20macOS%20|%20Linux-2b3137">
+  <img src="https://img.shields.io/badge/your%20data-stays%20local-2ea44f">
   <img src="https://img.shields.io/badge/a-Sw%C4%93l%20product-7B68EE">
 </p>
 
 <p align="center">
   <a href="https://agence-swel.fr/solutions/tarmhack/"><strong>Website</strong></a> ·
-  <a href="https://agence-swel.fr/solutions/tarmhack/#wishlist"><strong>Join the wishlist</strong></a>
+  <a href="https://agence-swel.fr/solutions/tarmhack/telecharger/"><strong>Download</strong></a> ·
+  <a href="https://agence-swel.fr/solutions/tarmhack/commander/"><strong>Subscribe</strong></a>
 </p>
 
 ---
 
-**Tarmhack'AI** is a 100% local desktop app that **scans, audits and synchronizes**
-your Claude Code setup — projects, hooks, skills, agents, MCP servers, `CLAUDE.md`
-files and permissions. No cloud, no API key, no telemetry.
+**Tarmhack'AI** is a desktop app that **scans, audits and synchronizes** your Claude Code
+setup: projects, hooks, skills, agents, MCP servers, `CLAUDE.md` files and permissions.
+Your projects, configurations and analyses never leave your machine. No AI API key of its
+own, no telemetry.
 
 > Other tools edit files. Tarmhack'AI analyzes, protects, optimizes and syncs.
 
@@ -33,6 +35,23 @@ files and permissions. No cloud, no API key, no telemetry.
 
 <sub><em>"Claude Code" is a trademark of Anthropic. Tarmhack'AI is an independent product of
 Swēl SAS, not affiliated with, sponsored by, or endorsed by Anthropic.</em></sub>
+
+## Download
+
+**[→ Get Tarmhack'AI 1.0.0](https://agence-swel.fr/solutions/tarmhack/telecharger/)** ·
+[all release files](https://github.com/Agence-Swel/tarmhack/releases/latest)
+
+| Platform | File |
+|---|---|
+| **Windows** 10/11 (64-bit) | `.exe` installer, or `.msi` |
+| **macOS** (Apple Silicon) | `.dmg`, signed and notarized |
+| **Linux** (x86-64) | `.AppImage` or `.deb` |
+
+Start with a **14-day trial, no credit card**.
+
+> **A note for Windows users.** This release is not yet signed with an Authenticode
+> certificate, so Windows will show an "unknown publisher" warning at install time. The
+> download page explains what you will see. macOS builds are signed and notarized.
 
 ## The problem
 
@@ -50,7 +69,7 @@ hub → projects drift detector. A Secrets Radar and a permissions audit, contin
 
 **Edit & propagate** — embedded Monaco editor, drag-and-drop assets between projects, and
 an AI Lab that rewrites an asset for its target project — driven by your local Claude Code
-CLI. No API call from the app.
+CLI. No AI API call from the app.
 
 <details>
 <summary><strong>The nine functions</strong></summary>
@@ -66,10 +85,25 @@ CLI. No API call from the app.
 - **Daily digest** — what changed since yesterday and each project's next step
 </details>
 
-## 100% local, always
+## Where your data lives, and what touches the network
 
-No account, no cloud, no telemetry — not even opt-in. Tarmhack'AI makes no API calls:
-your local Claude does the work. Wi-Fi off, the app runs the same. → see [`SECURITY.md`](SECURITY.md)
+**Your work stays on your machine.** Projects, configurations, scans, health scores and
+analyses are read and written locally. There is no Tarmhack'AI cloud that mirrors your
+data, and no telemetry of any kind, not even opt-in.
+
+Three things do reach the network, and none of them carries your code or your configs:
+
+- **Your licence.** Tarmhack'AI checks it against our licensing provider. What travels is
+  your licence key and a derived machine fingerprint, nothing else. The app keeps a signed
+  certificate valid for **3 days offline**; past that, it asks you to reconnect once.
+- **The AI features.** The Lab, the daily digest and the optimizations drive the **Claude
+  Code CLI already installed on your machine**, with your own Claude authentication. That
+  CLI needs internet, so those features do too. Everything else, the scans, the audits, the
+  editor, works offline.
+- **Update checks.** Is your Claude CLI up to date, and is a new Tarmhack'AI available.
+  Nothing is sent; versions are compared locally, and the startup check can be turned off.
+
+The full detail, destination by destination, is in **[`SECURITY.md`](SECURITY.md)**.
 
 ## Also in this repo
 
@@ -80,18 +114,22 @@ your local Claude does the work. Wi-Fi off, the app runs the same. → see [`SEC
 
 ## Pricing
 
-14-day trial, no credit card. €12/month or €99/year. **Founder price: €69/year for the
-first 500** on the wishlist — locked as long as your subscription stays active. No API key,
-no extra AI subscription — it uses your existing Claude Code CLI.
+14-day trial, no credit card. Then **€12/month** or **€99/year**, VAT included.
+
+**Founder price: €69/year**, reserved for the first 150 people on the wishlist who
+subscribe within 30 days of launch, and held for as long as that subscription stays active.
+
+No API key and no extra AI subscription: Tarmhack'AI uses the Claude Code CLI you already
+have.
 
 <p align="center">
-  <a href="https://agence-swel.fr/solutions/tarmhack/#wishlist"><strong>→ Join the wishlist</strong></a>
+  <a href="https://agence-swel.fr/solutions/tarmhack/commander/"><strong>→ Subscribe</strong></a> ·
+  <a href="https://agence-swel.fr/solutions/tarmhack/telecharger/"><strong>Try it for 14 days</strong></a>
 </p>
 
 ## Status
 
-Pilot phase — **Windows and Linux** (`.exe`, AppImage, `.deb`). macOS planned.
-Access via the wishlist.
+**Version 1.0.0, available now** on Windows, macOS (Apple Silicon) and Linux.
 
 ## License
 
@@ -108,5 +146,6 @@ product of Swēl SAS, not affiliated with, sponsored by, or endorsed by Anthropi
 references are nominative and for identification only. No Anthropic API is called by the app.</sub>
 
 <sub>Published by <strong>Swēl SAS</strong> (SIREN 104 600 374, Villetelle, France) —
-<a href="https://agence-swel.fr/mentions-legales">Legal notice</a> ·
-<a href="https://agence-swel.fr/confidentialite">Privacy policy</a>.</sub>
+<a href="https://agence-swel.fr/solutions/tarmhack/mentions-legales/">Legal notice</a> ·
+<a href="https://agence-swel.fr/solutions/tarmhack/confidentialite/">Privacy policy</a> ·
+<a href="https://agence-swel.fr/solutions/tarmhack/cgv/">Terms of sale</a>.</sub>
