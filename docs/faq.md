@@ -2,7 +2,7 @@
 
 ### What is Tarmhack'AI?
 
-A desktop app that scans, audits and synchronizes your Claude Code setup —
+A desktop app that scans, audits and synchronizes your Claude Code setup -
 projects, hooks, skills, agents, MCP servers, `CLAUDE.md` files and permissions. Built for
 developers who use Claude Code every day.
 
@@ -33,5 +33,5 @@ of launch, and held for as long as that subscription stays active.
 
 ### Is Tarmhack'AI affiliated with Anthropic?
 
-No. Tarmhack'AI is an independent third-party tool. Claude Code is a product of Anthropic —
+No. Tarmhack'AI is an independent third-party tool. Claude Code is a product of Anthropic -
 no affiliation, no official partnership.

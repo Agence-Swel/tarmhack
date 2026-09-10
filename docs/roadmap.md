@@ -1,10 +1,10 @@
 # Roadmap
 
-> High-level and indicative — not a commitment. Order and timing may change.
+> High-level and indicative - not a commitment. Order and timing may change.
 
 ## Shipped
 
-- **1.0.0** (September 2026) — first commercial release:
+- **1.0.0** (September 2026) - first commercial release:
   [Windows, macOS and Linux](https://agence-swel.fr/solutions/tarmhack/telecharger/)
 
 ## Next
@@ -14,6 +14,6 @@
 
 ## Later
 
-- More to come — follow the weekly [`watch/`](../watch/) for ecosystem updates
+- More to come - follow the weekly [`watch/`](../watch/) for ecosystem updates
 
 _Have a request? [Open an issue](https://github.com/Agence-Swel/tarmhack/issues)._

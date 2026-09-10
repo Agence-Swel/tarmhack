@@ -61,28 +61,28 @@ copy-paste inheritance, silent drift, and security in a blind spot.
 
 ## What it does
 
-**See everything** — every Claude Code project in one dashboard: scores, alerts, assets.
+**See everything** - every Claude Code project in one dashboard: scores, alerts, assets.
 Open the terminal, the project folder or any asset in one click.
 
-**Analyze & secure** — a Health Score out of 100 per `CLAUDE.md`, tracked over time. A
+**Analyze & secure** - a Health Score out of 100 per `CLAUDE.md`, tracked over time. A
 hub → projects drift detector. A Secrets Radar and a permissions audit, continuously.
 
-**Edit & propagate** — embedded Monaco editor, drag-and-drop assets between projects, and
-an AI Lab that rewrites an asset for its target project — driven by your local Claude Code
+**Edit & propagate** - embedded Monaco editor, drag-and-drop assets between projects, and
+an AI Lab that rewrites an asset for its target project - driven by your local Claude Code
 CLI. No AI API call from the app.
 
 <details>
 <summary><strong>The nine functions</strong></summary>
 
-- **Total visibility** — projects, hooks, skills, agents, MCP servers and plugins in one place
-- **AI Lab** — describe a hook, agent or skill; the Lab generates it via your local CLI
-- **Hub → projects inheritance** — shared configs as a clear tree, with a drift detector
-- **CLAUDE.md health score** — a /100 score per file, tracked over time
-- **Ultra Stack** — boost a project with a tailored selection of assets
-- **Security Radar** — continuous secret scanning + allow/deny permissions map
-- **Dead-config detector** — missing hook scripts, unreachable MCP servers, orphan permissions
-- **Built-in editor** — Monaco embedded; terminal and folder one click away
-- **Daily digest** — what changed since yesterday and each project's next step
+- **Total visibility** - projects, hooks, skills, agents, MCP servers and plugins in one place
+- **AI Lab** - describe a hook, agent or skill; the Lab generates it via your local CLI
+- **Hub → projects inheritance** - shared configs as a clear tree, with a drift detector
+- **CLAUDE.md health score** - a /100 score per file, tracked over time
+- **Ultra Stack** - boost a project with a tailored selection of assets
+- **Security Radar** - continuous secret scanning + allow/deny permissions map
+- **Dead-config detector** - missing hook scripts, unreachable MCP servers, orphan permissions
+- **Built-in editor** - Monaco embedded; terminal and folder one click away
+- **Daily digest** - what changed since yesterday and each project's next step
 </details>
 
 ## Where your data lives, and what touches the network
@@ -107,10 +107,10 @@ The full detail, destination by destination, is in **[`SECURITY.md`](SECURITY.md
 
 ## Also in this repo
 
-- 📰 **[`watch/`](watch/)** — a weekly, plain-language digest of what changes in the
+- 📰 **[`watch/`](watch/)** - a weekly, plain-language digest of what changes in the
   Claude Code / Anthropic ecosystem, and why it matters.
-- 🧰 **[`resources/`](resources/)** — curated, opinionated resources for running Claude Code
-  safely and well — kept current with the ecosystem, not left to rot.
+- 🧰 **[`resources/`](resources/)** - curated, opinionated resources for running Claude Code
+  safely and well - kept current with the ecosystem, not left to rot.
 
 ## Pricing
 
@@ -136,7 +136,7 @@ have.
 Tarmhack'AI (the application) is **proprietary software**, and this repository contains
 **no product source code**. The reusable configuration templates under
 [`resources/templates/`](resources/templates/) are released under the **MIT License**.
-All other content (documentation, watch editions, branding) is © 2026 Swēl SAS —
+All other content (documentation, watch editions, branding) is © 2026 Swēl SAS -
 all rights reserved.
 
 ---
@@ -145,7 +145,7 @@ all rights reserved.
 product of Swēl SAS, not affiliated with, sponsored by, or endorsed by Anthropic; trademark
 references are nominative and for identification only. No Anthropic API is called by the app.</sub>
 
-<sub>Published by <strong>Swēl SAS</strong> (SIREN 104 600 374, Villetelle, France) —
+<sub>Published by <strong>Swēl SAS</strong> (SIREN 104 600 374, Villetelle, France) -
 <a href="https://agence-swel.fr/solutions/tarmhack/mentions-legales/">Legal notice</a> ·
 <a href="https://agence-swel.fr/solutions/tarmhack/confidentialite/">Privacy policy</a> ·
 <a href="https://agence-swel.fr/solutions/tarmhack/cgv/">Terms of sale</a>.</sub>
