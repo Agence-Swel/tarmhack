@@ -13,3 +13,7 @@ Thumbs.db
 
 # Internal working notes — never published
 _internal/
+
+# Agent instructions and session notes: local only, never published
+CLAUDE.md
+.claude/
