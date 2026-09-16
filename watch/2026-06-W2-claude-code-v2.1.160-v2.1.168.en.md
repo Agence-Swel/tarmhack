@@ -42,7 +42,7 @@ Claude Code adds a `fallbackModel` setting that configures up to three fallback 
 
 Two new managed settings appear: `requiredMinimumVersion` and `requiredMaximumVersion`. Claude Code refuses to start if its version is outside the allowed range and directs the user to an approved version.
 
-> *"Added `requiredMinimumVersion` and `requiredMaximumVersion` managed settings — Claude Code refuses to start if its version is outside the allowed range"*
+> *"Added `requiredMinimumVersion` and `requiredMaximumVersion` managed settings - Claude Code refuses to start if its version is outside the allowed range"*
 
 **What this means in practice**: organizations can enforce a window of sanctioned versions - handy to keep a machine from running an outdated or unvetted build. Set these in your organization's managed settings.
 

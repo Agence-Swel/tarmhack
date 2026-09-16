@@ -33,7 +33,7 @@ Cross-session messaging already existed on macOS and Linux. It lands on Windows,
 
 **Note**: the companion piece, shipped three days earlier, did not follow onto Windows.
 
-> *"Added `notify_when_idle` to cross-session `SendMessage`: ask another Claude Code session on this machine to send one notice when it next goes idle — opt-in, one-shot, no polling (macOS and Linux)"* (v2.1.236)
+> *"Added `notify_when_idle` to cross-session `SendMessage`: ask another Claude Code session on this machine to send one notice when it next goes idle - opt-in, one-shot, no polling (macOS and Linux)"* (v2.1.236)
 
 The original line carries the restriction itself, "(macOS and Linux)", and no entry in this window extends it to Windows. On the changelog alone: on Windows you get the messaging, the idle wake-up is not announced there.
 

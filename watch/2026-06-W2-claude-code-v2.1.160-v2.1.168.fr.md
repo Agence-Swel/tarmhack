@@ -42,7 +42,7 @@ Claude Code introduit un paramètre `fallbackModel` qui permet de configurer jus
 
 Deux nouveaux paramètres managés font leur apparition : `requiredMinimumVersion` et `requiredMaximumVersion`. Claude Code refuse de démarrer si sa version est hors de la plage autorisée et oriente l'utilisateur vers une version approuvée.
 
-> *"Added `requiredMinimumVersion` and `requiredMaximumVersion` managed settings — Claude Code refuses to start if its version is outside the allowed range"*
+> *"Added `requiredMinimumVersion` and `requiredMaximumVersion` managed settings - Claude Code refuses to start if its version is outside the allowed range"*
 
 **Ce que ça change concrètement** : les organisations peuvent imposer une fenêtre de versions homologuées - utile pour éviter qu'un poste tourne sur une version trop ancienne ou non validée. À fixer dans les *managed settings* de l'organisation.
 

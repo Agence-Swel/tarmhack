@@ -33,7 +33,7 @@ La messagerie entre sessions existait sur macOS et Linux. Elle arrive sous Windo
 
 **Note** : la pièce complémentaire, arrivée trois jours plus tôt, n'a pas suivi sur Windows.
 
-> *"Added `notify_when_idle` to cross-session `SendMessage`: ask another Claude Code session on this machine to send one notice when it next goes idle — opt-in, one-shot, no polling (macOS and Linux)"* (v2.1.236)
+> *"Added `notify_when_idle` to cross-session `SendMessage`: ask another Claude Code session on this machine to send one notice when it next goes idle - opt-in, one-shot, no polling (macOS and Linux)"* (v2.1.236)
 
 La ligne d'origine porte elle-même la restriction, « (macOS and Linux) », et aucune entrée de la fenêtre ne l'étend à Windows. Sur la foi du changelog seul : sous Windows vous avez la messagerie, le réveil sur inactivité n'y est pas annoncé.
 

@@ -42,7 +42,7 @@ If you run commands in the sandbox, a new setting stops them from reading your c
 
 If you were already logging prompts through OpenTelemetry, the upgrade also starts exporting the model's response text - with no config change on your side.
 
-> *"Added `claude_code.assistant_response` OpenTelemetry log event… when that var is unset it follows `OTEL_LOG_USER_PROMPTS`, so deployments that already log prompt content will start receiving response content on upgrade — set `OTEL_LOG_ASSISTANT_RESPONSES=0` to keep prompts-only"*
+> *"Added `claude_code.assistant_response` OpenTelemetry log event… when that var is unset it follows `OTEL_LOG_USER_PROMPTS`, so deployments that already log prompt content will start receiving response content on upgrade - set `OTEL_LOG_ASSISTANT_RESPONSES=0` to keep prompts-only"*
 
 **What this means in practice**: it's not a bug, it's an inherited default. If exporting responses isn't what you want, set `OTEL_LOG_ASSISTANT_RESPONSES=0` before upgrading. Check it.
 

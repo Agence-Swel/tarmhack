@@ -24,7 +24,7 @@ lang: en
 
 The context window jumps to one million tokens, and fast mode changes hands.
 
-> *"Added Claude Opus 5 (`claude-opus-5`), now the default Opus model — 1M context, fast mode at $10/$50 per Mtok"*
+> *"Added Claude Opus 5 (`claude-opus-5`), now the default Opus model - 1M context, fast mode at $10/$50 per Mtok"*
 >
 > *"Removed Opus 4.7 from fast mode; `/fast` now applies to Opus 5 and Opus 4.8"*
 
@@ -78,7 +78,7 @@ The two entry points finally behave the same way.
 
 **Several permission-check bypasses closed (v2.1.214, v2.1.216, v2.1.223)** - commands over 10,000 characters now always prompt instead of running automatically; file-descriptor redirect forms the analyzer misread now fail closed; zsh subscripts inside `[[ ]]` are no longer treated as inert text; and a command padded with tabs or invisible Unicode characters can no longer hide part of itself from the approval dialog.
 
-> *"Fixed Bash permission checks misjudging very long commands — commands over 10,000 characters now always prompt instead of running automatically"*
+> *"Fixed Bash permission checks misjudging very long commands - commands over 10,000 characters now always prompt instead of running automatically"*
 >
 > *"Fixed permission prompts so commands padded with tabs or invisible Unicode can no longer hide part of the command from the approval dialog"*
 

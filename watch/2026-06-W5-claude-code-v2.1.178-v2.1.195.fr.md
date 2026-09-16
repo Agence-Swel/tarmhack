@@ -42,7 +42,7 @@ Si vous faites tourner des commandes dans le sandbox, un nouveau réglage les em
 
 Si vous journalisiez déjà les prompts via OpenTelemetry, la mise à jour vous fait aussi exporter le texte des réponses du modèle - sans rien changer dans votre config.
 
-> *"Added `claude_code.assistant_response` OpenTelemetry log event… when that var is unset it follows `OTEL_LOG_USER_PROMPTS`, so deployments that already log prompt content will start receiving response content on upgrade — set `OTEL_LOG_ASSISTANT_RESPONSES=0` to keep prompts-only"*
+> *"Added `claude_code.assistant_response` OpenTelemetry log event… when that var is unset it follows `OTEL_LOG_USER_PROMPTS`, so deployments that already log prompt content will start receiving response content on upgrade - set `OTEL_LOG_ASSISTANT_RESPONSES=0` to keep prompts-only"*
 
 **Ce que ça change concrètement** : ce n'est pas un bug, c'est un héritage de réglage. Si l'export des réponses n'est pas voulu, posez `OTEL_LOG_ASSISTANT_RESPONSES=0` avant de monter de version. Vérifiez-le.
 

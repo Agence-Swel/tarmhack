@@ -25,7 +25,7 @@ lang: fr
 
 Ce n'est pas un modèle de plus dans le menu : c'est celui qui répond par défaut qui a changé.
 
-> *"Added Claude Fable 5.1 (`claude-fable-5-1`), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads"*
+> *"Added Claude Fable 5.1 (`claude-fable-5-1`), now the default Fable model - 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads"*
 
 **Ce que ça change concrètement** : un flux qui demande « Fable » sans plus de précision tourne désormais sur la 5.1, fenêtre de contexte d'un million de jetons, tarif annoncé à 10 / 50 dollars par million, lectures de cache à 0,25. Ceux qui épinglent `claude-fable-5` par son nom exact restent où ils sont. Deux nuances comptent plus que l'annonce.
 
@@ -105,7 +105,7 @@ Trois correctifs, trois versions, la même famille de faille : un chemin déclar
 
 **Des sessions concurrentes qui s'écrasaient l'une l'autre (v2.1.259).** Travailler avec plusieurs sessions ouvertes en parallèle pouvait faire perdre en silence des changements écrits par une autre.
 
-> *"Fixed concurrent sessions silently reverting each other's `~/.claude.json` changes — workspace trust no longer resets and MCP/project state is no longer lost when running many sessions at once"*
+> *"Fixed concurrent sessions silently reverting each other's `~/.claude.json` changes - workspace trust no longer resets and MCP/project state is no longer lost when running many sessions at once"*
 
 **Un réglage managé mal formé bloque désormais le démarrage (v2.1.259).** Si le fichier de réglages managés, un fichier déposé à côté, le plist MDM ou la valeur de registre Windows ne se laisse pas analyser, Claude Code refuse de démarrer et nomme la source. Avant, il démarrait sans appliquer des règles de gouvernance qu'on croyait actives.
 

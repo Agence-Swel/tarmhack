@@ -25,7 +25,7 @@ lang: en
 
 This isn't one more model in the picker: the one that answers by default has changed.
 
-> *"Added Claude Fable 5.1 (`claude-fable-5-1`), now the default Fable model — 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads"*
+> *"Added Claude Fable 5.1 (`claude-fable-5-1`), now the default Fable model - 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads"*
 
 **What this means in practice**: a workflow that asks for "Fable" without further detail now runs on 5.1, with a one-million-token context window, list pricing of $10/$50 per million tokens and cache reads at $0.25. Anything pinning `claude-fable-5` by its exact name stays where it is. Two caveats matter more than the announcement.
 
@@ -105,7 +105,7 @@ Three fixes, three releases, one family of flaw: a path declared by a plugin or 
 
 **Concurrent sessions overwriting each other (v2.1.259).** Working with several sessions open in parallel could silently lose changes written by another one.
 
-> *"Fixed concurrent sessions silently reverting each other's `~/.claude.json` changes — workspace trust no longer resets and MCP/project state is no longer lost when running many sessions at once"*
+> *"Fixed concurrent sessions silently reverting each other's `~/.claude.json` changes - workspace trust no longer resets and MCP/project state is no longer lost when running many sessions at once"*
 
 **A malformed managed setting now blocks startup (v2.1.259).** If the managed settings file, a drop-in beside it, the MDM plist or the Windows registry value cannot be parsed, Claude Code refuses to start and names the source. It used to start up without applying governance rules you believed were in force.
 

@@ -40,7 +40,7 @@ douzaine, sur quinze versions, presque toutes dans le même chemin de code. Un �
 représentatif, verbatim du changelog officiel :
 
 - **Des commandes trop longues pour être jugées** (v2.1.214) : *"Fixed Bash permission checks
-  misjudging very long commands — commands over 10,000 characters now always prompt instead of
+  misjudging very long commands - commands over 10,000 characters now always prompt instead of
   running automatically."*
 - **Des redirections que l'analyseur lisait autrement que bash** (v2.1.214) : les contrôles se
   referment désormais en cas de doute sur les *"file-descriptor redirect forms that bash parses
@@ -407,7 +407,7 @@ Quatre autres règles d'ancrage à intégrer, toutes tirées de la référence d
 - **Refusez les écritures de fichier avec `Edit(...)`, pas avec `Write(...)`.** Une règle de refus
   `Write(docs/**)` ne fait pas ce qu'elle a l'air de faire, et depuis la v2.1.210 Claude Code vous
   le dit au démarrage : cette version a *"Added a startup warning for `Write(path)`,
-  `NotebookEdit(path)`, and `Glob(path)` permission rules — use `Edit(path)` or `Read(path)`
+  `NotebookEdit(path)`, and `Glob(path)` permission rules - use `Edit(path)` or `Read(path)`
   instead."* Les règles `Edit` couvrent tous les outils d'édition de fichier.
 - **Sous Windows, les chemins sont normalisés en forme POSIX** avant appariement : `C:\Users\alice`
   devient `/c/Users/alice`. Utilisez `//c/**/.env` pour un seul lecteur, `//**/.env` pour tous.
