@@ -8,7 +8,7 @@
 <h3 align="center">Take back control of your Claude Code environment.</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-F97316">
+  <img src="https://img.shields.io/badge/version-1.1.0-F97316">
   <img src="https://img.shields.io/badge/platforms-Windows%20|%20macOS%20|%20Linux-2b3137">
   <img src="https://img.shields.io/badge/your%20data-stays%20local-2ea44f">
   <img src="https://img.shields.io/badge/a-Sw%C4%93l%20product-7B68EE">
@@ -38,7 +38,7 @@ Swēl SAS, not affiliated with, sponsored by, or endorsed by Anthropic.</em></su
 
 ## Download
 
-**[→ Get Tarmhack'AI 1.0.0](https://agence-swel.fr/solutions/tarmhack/telecharger/)** ·
+**[→ Get Tarmhack'AI 1.1.0](https://agence-swel.fr/solutions/tarmhack/telecharger/)** ·
 [all release files](https://github.com/Agence-Swel/tarmhack/releases/latest)
 
 | Platform | File |
@@ -129,7 +129,7 @@ have.
 
 ## Status
 
-**Version 1.0.0, available now** on Windows, macOS (Apple Silicon) and Linux.
+**Version 1.1.0, available now** on Windows, macOS (Apple Silicon) and Linux.
 
 ## License
 

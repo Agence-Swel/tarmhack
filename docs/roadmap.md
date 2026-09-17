@@ -6,6 +6,9 @@
 
 - **1.0.0** (September 2026) - first commercial release:
   [Windows, macOS and Linux](https://agence-swel.fr/solutions/tarmhack/telecharger/)
+- **1.1.0** (September 2026) - new "Context" tab: what your setup costs Claude Code at every
+  session start, which hooks slow it down, and what silently fails to load.
+  [Release notes](https://github.com/Agence-Swel/tarmhack/releases/tag/v1.1.0)
 
 ## Next
 
