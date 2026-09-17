@@ -64,7 +64,9 @@ Quand Claude délègue à un sous-agent, il ne vous fait plus attendre - et un a
 
 ## Améliorations notables
 
-**Sortie structurée plus fiable - et plus stricte (v2.1.205)** - `--json-schema` produisait parfois une sortie non structurée en silence quand le schéma était invalide : c'est corrigé, et les schémas qui utilisent le mot-clé `format` sont désormais rejetés explicitement. Si vous générez du JSON structuré via un schéma, revérifiez qu'il ne s'appuie pas sur `format` - sinon il faut le retravailler.
+**Sortie structurée plus fiable (v2.1.205)** - `--json-schema` produisait parfois une sortie non structurée en silence quand le schéma était invalide : c'est corrigé. Le CLI valide désormais le schéma localement, avant tout appel au modèle, et refuse explicitement ceux qu'il ne sait pas lire. Concrètement, un schéma invalide vous coûte une erreur immédiate au lieu d'une génération facturée pour rien.
+
+> **Erratum du 17/09/2026.** Cette édition affirmait que « les schémas qui utilisent le mot-clé `format` sont désormais rejetés » et vous conseillait de le retirer de vos schémas. **C'est faux.** Vérification faite sur le CLI 2.1.273 : `format` est **accepté**, en `uri`, en `date-time`, et même avec une valeur inconnue. La note de version annonçait un correctif *des* schémas qui emploient `format`, pas leur rejet. Ce qui est réellement strict : le validateur refuse un mot-clé inconnu et une expression régulière `pattern` invalide, et il avertit quand `format` est posé sur un champ qui n'est ni texte ni nombre. Nos excuses à celles et ceux qui ont retravaillé un schéma pour rien.
 
 **Beaucoup moins de mémoire et de latence sur les longues sessions (v2.1.208)** - une release de performance à elle seule : les matchers de règles sont compilés une fois et mis en cache (fin des ralentissements de plusieurs secondes quand vous avez beaucoup de règles deny/ask), l'assemblage des outils MCP est caché (jusqu'à 7× plus rapide en print/SDK), plusieurs fuites mémoire sont bouchées, et la taille des transcripts d'édition chute jusqu'à 79×. Si vos sessions longues ramaient, la mise à jour se sent.
 

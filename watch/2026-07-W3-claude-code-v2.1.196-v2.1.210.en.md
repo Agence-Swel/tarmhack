@@ -64,7 +64,9 @@ When Claude delegates to a subagent, it no longer makes you wait - and a backgro
 
 ## Notable improvements
 
-**Structured output is more reliable - and stricter (v2.1.205)** - `--json-schema` sometimes produced unstructured output silently when the schema was invalid: that's fixed, and schemas using the `format` keyword are now explicitly rejected. If you generate structured JSON via a schema, double-check it doesn't lean on `format` - otherwise you'll need to rework it.
+**Structured output is more reliable (v2.1.205)** - `--json-schema` sometimes produced unstructured output silently when the schema was invalid: that's fixed. The CLI now validates the schema locally, before any model call, and explicitly rejects the ones it cannot read. In practice, an invalid schema costs you an immediate error instead of a billed generation that returns nothing usable.
+
+> **Erratum, 17 Sep 2026.** This edition claimed that "schemas using the `format` keyword are now explicitly rejected" and advised you to remove it from your schemas. **That is wrong.** Verified against CLI 2.1.273: `format` is **accepted**, as `uri`, as `date-time`, and even with an unknown value. The release note announced a fix *for* schemas that use `format`, not their rejection. What is actually strict: the validator rejects an unknown keyword and an invalid `pattern` regex, and it warns when `format` sits on a field that is neither a string nor a number. Apologies to anyone who reworked a schema for nothing.
 
 **Much less memory and latency on long sessions (v2.1.208)** - a performance release on its own: rule matchers are compiled once and cached (no more multi-second slowdowns when you have many deny/ask rules), MCP tool-pool assembly is cached (up to 7× faster in print/SDK), several memory leaks are plugged, and edit-heavy transcript size drops up to 79×. If your long sessions were dragging, the update is felt.
 
