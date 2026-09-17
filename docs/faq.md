@@ -27,9 +27,8 @@ and **Linux** (`.AppImage` and `.deb`).
 
 ### How much does it cost?
 
-14-day trial, no credit card. Then €12/month or €99/year, VAT included. **Founder price:
-€69/year**, reserved for the first 150 people on the wishlist who subscribe within 30 days
-of launch, and held for as long as that subscription stays active.
+14-day trial, no credit card. Then €12/month or €99/year, VAT included. The annual plan
+works out to **€8.25/month**, 31 % less than paying month to month.
 
 ### Is Tarmhack'AI affiliated with Anthropic?
 

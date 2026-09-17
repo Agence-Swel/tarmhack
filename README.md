@@ -116,8 +116,7 @@ The full detail, destination by destination, is in **[`SECURITY.md`](SECURITY.md
 
 14-day trial, no credit card. Then **€12/month** or **€99/year**, VAT included.
 
-**Founder price: €69/year**, reserved for the first 150 people on the wishlist who
-subscribe within 30 days of launch, and held for as long as that subscription stays active.
+The annual plan works out to **€8.25/month**, 31 % less than paying month to month.
 
 No API key and no extra AI subscription: Tarmhack'AI uses the Claude Code CLI you already
 have.
